@@ -1,0 +1,91 @@
+#Info Cluster
+GET _cat/indices
+
+#Insert document
+POST my-index-000001/_doc/
+{
+  "@timestamp": "2099-11-15T13:12:00",
+  "message": "GET /search HTTP/1.1 200 1070000",
+  "user": {
+    "id": "kimchy"
+  }
+}
+
+POST my-index-000001/_doc/1
+{
+  "@timestamp": "2099-12-15T13:12:00",
+  "message": "GET /search HTTP/1.1 200 1070000",
+  "user": {
+    "id": "Paul"
+  }
+}
+
+#Mapping
+GET my-index-000001/_mapping
+
+#all documents
+GET  my-index-000001/_search/
+{
+    "query": {
+        "match_all": {}
+    }
+}
+
+#Get id 1
+GET my-index-000001/_search
+{
+  "query": {
+    "terms": {
+      "_id": ["1" ]
+    }
+  }
+}
+
+# Insert new field
+POST my-index-000001/_doc/2
+{
+  "@timestamp": "2099-12-15T13:12:00",
+  "message": "GET /search HTTP/1.1 200 1070000",
+  "user": {
+    "id": "Paul"
+  },
+  "logs": "Une log pleine de passion"
+}
+
+POST my-index-000001/_doc/3
+{
+  "@timestamp": "2099-12-15T13:12:00",
+  "message": "GET /search HTTP/1.1 200 1070000",
+  "user": {
+    "id": "Paul"
+  },
+  "logs": "Une log responsable d'une anomalie"
+}
+
+#Search
+GET  my-index-000001/_search
+{ 
+  "query": 
+  { 
+    "match": 
+    { 
+      "logs": 
+      {
+        "query": "anomalie"
+      }
+    } 
+  } 
+}
+
+# Analyzer
+POST _analyze
+{
+  "analyzer": "whitespace",
+  "text":     "The quick brown fox."
+}
+
+POST _analyze
+{
+  "analyzer": "french",
+  "text":     "Salut comment vas-tu."
+}
