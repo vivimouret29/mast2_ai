@@ -1,0 +1,3 @@
+[submodule "ydays/pypoker"]
+	path = ydays/pypoker
+	url = https://github.com/hboueix/pypoker
