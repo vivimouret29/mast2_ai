@@ -1,10 +1,10 @@
 .vscode
-# *.csv
-# *.png
-# *.wav
-# *.avi
-# *.xlsx
-# *.dat
-# *.pptx
-# *.pdf
-# *.docx
+*.csv
+*.png
+*.wav
+*.avi
+*.xlsx
+*.dat
+*.pptx
+*.pdf
+*.docx
