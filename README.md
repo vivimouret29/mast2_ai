@@ -58,3 +58,61 @@
 </i>
 <br>
 <br>
+  
+## **[Mathematical Data Scientist](./mathsDS)**
+<br>
+
+- [Fil Rouge Project](./mathsDS/red_string)
+- [Loading Dataset](./mathsDS/chargement_dataset)
+- [Docker](./mathsDS/docker)
+- [Tabulated data](./mathsDS/donnees_tabulees)
+- [Python Advance](./mathsDS/python_avance)
+- [Reconize Movies](./mathsDS/reco_movies)
+- [Time Series](./mathsDS/series_temporelles)
+- [Statistics](./mathsDS/stats)
+
+<br>
+<br>
+
+## **[NLP data processing](./traitement_donnee_nlp)**
+<br>
+
+- [Fil Rouge Project](https://github.com/vivimouret29/NLP)
+- [Clustering](./traitement_donnee_nlp/clustering)
+- [CNN](./traitement_donnee_nlp/cnn)
+- [Introduction NLP](./traitement_donnee_nlp/intro_nlp)
+- [Keras & TensorFlow 2](./traitement_donnee_nlp/keras_tf_2)
+- [NLTK](./traitement_donnee_nlp/nltk)
+- [Numerisation](./traitement_donnee_nlp/numerisation)
+- [RNN](./traitement_donnee_nlp/rnn)
+
+<br>
+<br>
+
+## **[Test methodology](./methodo_test)**
+<br>
+
+- [Fil Rouge Project](./methodo_test/red_string)
+
+<br>
+<br>
+
+<h2 align="center">
+  <strong>
+    <a href="https://github.com/vivimouret29/mast2_ai/tree/main/ydays">
+      Ydays Laboratory
+    </a>
+  </strong>
+</h2>
+<br>
+<i>
+  This folder will contain projects initiated during the Lab Ydays :
+</i>
+<br>
+<br>
+
+- [Daftbot - Mobbot](https://github.com/vivimouret29/nodejs_bot)
+- [PyPoker](https://github.com/hboueix/pypoker)   
+*Sorry private GituHub*
+
+<br>
