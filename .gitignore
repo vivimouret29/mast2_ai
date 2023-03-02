@@ -1,3 +1,9 @@
 .vscode
-
 /traitement_donnee_nlp/clustering/GoogleNews-vectors-negative300.bin
+/methodo_test/gameoflife/.pytest_cache
+/methodo_test/gameoflife/__pycache__
+/methodo_test/leap_years/.pytest_cache
+/methodo_test/leap_years/__pycache__
+/methodo_test/tripservice/.pytest_cache
+/methodo_test/tripservice/__pycache__
+/methodo_test/tripservice/tripservice_mechanical/__pycache__
